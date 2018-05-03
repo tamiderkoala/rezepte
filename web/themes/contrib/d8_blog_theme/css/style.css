@@ -192,7 +192,7 @@ p.submitted a {
 }
 /*LOGO*/
 .site-logo{min-width:88px; height:88px;}
-.site-name{font-size:33px; font-weight:bold; line-height:90px; text-transform:uppercase}
+.site-name{font-family: Amatic SC; font-size:45px; font-weight:bold; line-height:90px; text-transform:uppercase}
 
 #logo, #sitename,.site-name,.site-logo {
 	float: left
