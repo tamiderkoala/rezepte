@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc7b30a346027f2465e7e94bbee82336",
+    "content-hash": "c7f4c88960e85965128c6595543aaf32",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1913,6 +1913,64 @@
             "time": "2018-04-25T15:39:01+00:00"
         },
         {
+            "name": "drupal/d8_blog_theme",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/d8_blog_theme",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/d8_blog_theme-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "8b9097e1075b115784268155f56b07b71689baec"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1505111555",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Abhijeet Sandil",
+                    "homepage": "https://www.drupal.org/user/375875"
+                },
+                {
+                    "name": "JayKandari",
+                    "homepage": "https://www.drupal.org/user/2876519"
+                },
+                {
+                    "name": "dhiraj bhagat",
+                    "homepage": "https://www.drupal.org/user/3205061"
+                },
+                {
+                    "name": "jitendra verma",
+                    "homepage": "https://www.drupal.org/user/1544832"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/d8_blog_theme",
+            "support": {
+                "source": "http://cgit.drupalcode.org/d8_blog_theme"
+            }
+        },
+        {
             "name": "drupal/devel",
             "version": "1.2.0",
             "source": {
@@ -1992,6 +2050,69 @@
                 "source": "http://cgit.drupalcode.org/devel",
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/showcase_lite",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/showcase_lite",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/showcase_lite-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "cff70c03c39915fc08b711358d5aee0f937b7786"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1513574888",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "evankay",
+                    "homepage": "https://www.drupal.org/user/2912669"
+                },
+                {
+                    "name": "gtsopour",
+                    "homepage": "https://www.drupal.org/user/829430"
+                },
+                {
+                    "name": "skechagia",
+                    "homepage": "https://www.drupal.org/user/2447146"
+                },
+                {
+                    "name": "skounis",
+                    "homepage": "https://www.drupal.org/user/877552"
+                },
+                {
+                    "name": "vkech",
+                    "homepage": "https://www.drupal.org/user/1451830"
+                }
+            ],
+            "description": "A flexible, recolorable theme with many regions and a responsive, mobile-first layout.",
+            "homepage": "https://www.drupal.org/project/showcase_lite",
+            "support": {
+                "source": "http://cgit.drupalcode.org/showcase_lite"
             }
         },
         {
