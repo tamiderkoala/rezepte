@@ -1,0 +1,14 @@
+uuid: b1d3836d-ee43-40ac-b075-99a3ed3314b9
+name: 'Meine Website'
+mail: tamirawolpert@web.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
